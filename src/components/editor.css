@@ -1,0 +1,50 @@
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  background: #2c2c2c;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  z-index: 10;
+  position: relative;
+}
+
+  .toolbar-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+  .toolbar-btn.active {
+    color: orange;
+  }
+
+  .toolbar-btn.active {
+    color: rgb(230, 213, 180);
+  }
+
+.editor-input {
+  min-height: 150px;
+  padding: 12px;
+  background: #1e1e1e;
+  color: white;
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+}
+
+ .editor-placeholder {
+  color: #888;
+  padding: 12px;
+  position: absolute;
+  pointer-events: none;
+}
+
+.editor-wrapper {
+  margin-top: 16px;
+  padding: 10px;
+  background: transparent;
+}
